@@ -20,9 +20,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm i
-        with:
-          path: ./frontend
+        run: cd ./frontend npm i
 
       - name: Build project
         run: npm run build
