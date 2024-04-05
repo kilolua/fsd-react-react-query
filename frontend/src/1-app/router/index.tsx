@@ -1,8 +1,8 @@
-import { createHashRouter, createRoutesFromElements, Route} from "react-router-dom";
+import {createBrowserRouter, createRoutesFromElements, Route} from "react-router-dom";
 import {OrdersPage} from "@/3-pages/ordersPage";
 
-export const router = createHashRouter(createRoutesFromElements(
+export const router = createBrowserRouter(createRoutesFromElements(
     <>
-        <Route path={'orders'} element={<OrdersPage/>}></Route>
+        <Route path={'/orders/'} element={<OrdersPage/>}></Route>
     </>
 ))
