@@ -12,5 +12,5 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base:'/'
+  base:'/fsd-react-react-query/'
 })
