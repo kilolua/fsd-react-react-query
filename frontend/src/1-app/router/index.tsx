@@ -3,6 +3,6 @@ import {OrdersPage} from "@/3-pages/ordersPage";
 
 export const router = createBrowserRouter(createRoutesFromElements(
     <>
-        <Route path={''} element={<OrdersPage/>}></Route>
+        <Route path={'fsd-react-react-query/'} element={<OrdersPage/>}></Route>
     </>
 ))
