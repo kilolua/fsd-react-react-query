@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 16
 
-      - run: cd ./frontend
+      - run: cd ./frontend && npm i
 
       - name: Install dependencies
         run: npm i
