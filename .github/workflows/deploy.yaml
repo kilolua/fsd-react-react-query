@@ -19,19 +19,17 @@ jobs:
         with:
           node-version: 16
 
-      - run: cd ./frontend && npm i
-
       - name: Install dependencies
-        run: npm i
+        run: cd ./frontend && npm i
 
       - name: Build project
-        run: npm run build
+        run: cd ./frontend && npm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
           name: production-files
-          path: ./dist
+          path: ./frontend/dist
 
   deploy:
     name: Deploy
