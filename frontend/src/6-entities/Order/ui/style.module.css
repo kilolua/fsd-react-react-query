@@ -1,0 +1,65 @@
+.card{
+    width: 547px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.line{
+    width: 100%;
+    background: #E7E7E7;
+    height: 1px;
+}
+
+.orderNumber{
+    margin-left: auto;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+
+    color: #818281;
+}
+
+.descriptionsBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.description1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+
+    color: #404140;
+}
+
+.description2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+
+    color: #818281;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+
+    color: #404140;
+}
+
+.gsm{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+
+    color: #818281;
+}

@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #d2d2d2;
+    font-family: "Roboto Black", serif !important;
+    width: 100%;
+    max-height: 100vh;
+    height: 100vh;
+}
