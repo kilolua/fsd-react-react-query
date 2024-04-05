@@ -12,5 +12,5 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base:'./'
+  base:'https://kilolua.github.io/fsd-react-react-query/'
 })
