@@ -19,9 +19,7 @@ jobs:
         with:
           node-version: 16
 
-      - name: Move Frontend
-        run: cd ./frontend
-
+      - run: cd ./frontend
 
       - name: Install dependencies
         run: npm i
